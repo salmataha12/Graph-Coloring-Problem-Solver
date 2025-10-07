@@ -1,36 +1,41 @@
-# Graph-Coloring-Problem-Solver
-🧩 Overview
+# 🎨 Graph Coloring Problem Solver
 
-A Python app that solves the Graph Coloring Problem, ensuring no two connected nodes share the same color while minimizing the number of colors used.
+A Python app that solves the **Graph Coloring Problem**, ensuring no two connected nodes share the same color while minimizing the number of colors used.
+
 It supports two algorithms:
-  Backtracking Search Algorithm (BSA)
-  
-  Genetic Algorithm (GA)
-Built with Tkinter for the GUI, NetworkX for graph handling, and Matplotlib for visualization.
+- **Backtracking Search Algorithm (BSA)**
+- **Genetic Algorithm (GA)**
 
-⚙️ Features
+Built with **Tkinter** for the GUI, **NetworkX** for graph handling, and **Matplotlib** for visualization.
 
-- Interactive GUI to build custom graphs
+---
 
-- Choose between Backtracking or Genetic Algorithm
+## ⚙️ Features
 
-- Adjustable GA parameters (population size, mutation rate, etc.)
+- Interactive GUI to build custom graphs  
 
-- Real-time colored graph visualization
+- Choose between Backtracking or Genetic Algorithm  
 
-- Shows time taken and chromatic number
+- Adjustable GA parameters (population size, mutation rate, etc.)  
 
-How to Run
+- Real-time colored graph visualization  
+
+- Shows time taken and chromatic number  
+
+---
+
+## 🚀 How to Run
+
+```bash
 git clone https://github.com/<your-username>/Graph-Coloring-Problem-Solver.git
 cd Graph-Coloring-Problem-Solver
 pip install -r requirements.txt
 python main.py
 
+
 Dependencies
 networkx>=3.0
 matplotlib>=3.0
- Tkinter is included with Python.
-
 
 Summary
 
