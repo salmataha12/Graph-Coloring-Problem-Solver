@@ -31,7 +31,7 @@ git clone https://github.com/<your-username>/Graph-Coloring-Problem-Solver.git
 cd Graph-Coloring-Problem-Solver
 pip install -r requirements.txt
 python main.py
-
+```
 
 
 Dependencies
